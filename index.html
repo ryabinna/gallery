@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Wotercolor</title>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="gallery currentImg"></div>
+    <div class="btn btn-left" onclick = "image(0)"><img src="left_icon.svg" alt="предыдущая картина"></div>
+    <div class="btn btn-right" onclick = "image(1)"><img src="right_icon.svg" alt="следующая картина"></div>
+    <p class="description">1/5</p>
+    <div class="arrows">
+        <span class="arrow arrow-left" onclick = "image(0)">&lt</span>
+        <span class="arrow arrow-right" onclick = "image(1)">&gt</span>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
